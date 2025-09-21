@@ -39,13 +39,13 @@ This lab combines web development techniques to build an **SPA** that demonstrat
 ## 📂 Project Structure
 
 wordly-dictionary/
-├── index.html        # Main entry point
-├── style.css         # Custom styles (with light/dark themes)
-├── main.js           # App entry script
-├── ui.js             # Handles DOM rendering
-├── storage.js        # Manages local storage (favorites, theme)
-├── assets/           # Favicon and icons
-└── README.md         # Project documentation
+├── index.html        # Main entry point\
+├── style.css         # Custom styles (with light/dark themes)\
+├── main.js           # App entry script\
+├── ui.js             # Handles DOM rendering\
+├── storage.js        # Manages local storage (favorites, theme)\
+├── assets/           # Favicon and icons\
+└── README.md         # Project documentation\
 
 ---
 
