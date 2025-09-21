@@ -38,7 +38,7 @@ This lab combines web development techniques to build an **SPA** that demonstrat
 
 ## 📂 Project Structure
 
-wordly-dictionary/
+wordly-dictionary/\
 ├── index.html        # Main entry point\
 ├── style.css         # Custom styles (with light/dark themes)\
 ├── main.js           # App entry script\
