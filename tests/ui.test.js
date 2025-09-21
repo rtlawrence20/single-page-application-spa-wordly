@@ -90,7 +90,7 @@ describe("UI functions", () => {
 
         const btn = audioContainer.querySelector("button");
         expect(btn).not.toBeNull();
-        expect(btn.textContent).toBe("🔊 Play Pronunciation");
+        expect(btn.textContent).toBe("Play Pronunciation");
     });
 
     test("renderFavorites displays saved words", () => {

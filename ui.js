@@ -1,4 +1,3 @@
-// ui.js
 import { addFavorite, removeFavorite, getFavorites, isDark } from "./storage.js";
 
 // Abv part of speech
