@@ -1,0 +1,31 @@
+{
+    "name": "single-page-application-spa-wordly",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rtlawrence20/single-page-application-spa-wordly.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rtlawrence20/single-page-application-spa-wordly/issues"
+    },
+    "homepage": "https://github.com/rtlawrence20/single-page-application-spa-wordly#readme",
+    "devDependencies": {
+        "@babel/core": "^7.28.4",
+        "@babel/preset-env": "^7.28.3",
+        "babel-jest": "^30.1.2",
+        "jest": "^30.1.3",
+        "jest-environment-jsdom": "^30.1.2"
+    },
+    "type": "module",
+    "jest": {
+        "testEnvironment": "jsdom"
+    }
+}

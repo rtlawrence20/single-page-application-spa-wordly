@@ -1,0 +1,43 @@
+/* default light theme */
+
+
+/* dark theme */
+body.dark-theme {
+  background-color: #2f2f2f !important; /*should change this in the future*/
+  color: #e8e8e8;
+}
+
+#results.dark-theme {
+    background-color: #4f4f4f !important; /*should change this in the future*/
+    color: #e8e8e8;
+}
+
+#results.highlight {
+    border: 2px solid #28a745;
+    animation: highlightFade 1.5s ease-in-out;
+}
+
+@keyframes highlightFade {
+    0% {background-color: #d4edda;}
+    100% {background-color: white;}
+}
+
+.list-group-item.saved {
+    background-color: #f9fbe7;
+    font-weight: bold;
+}
+
+#results {
+    width: 100%;
+    height: 400px;
+    overflow-y: auto; /* Scroll vertically if content exceeds height */
+    overflow-x: hidden;
+    padding: 1rem;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#results.show {
+    opacity: 1; /*Using this instead of bootstrap d-none to prevent collapsing*/
+}
